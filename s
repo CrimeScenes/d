@@ -564,11 +564,7 @@ Circle.Filled = false
 local function UpdateFOV()
     if not Circle then return end
 
-    -- Check if Circle has a Visible property before accessing it
-    if Circle:IsA("GuiObject") then
-        Circle.Visible = Forbidden.CamLock.Normal.Radius_Visibility
-    end
-    
+    Circle.Visible = Forbidden.CamLock.Normal.Radius_Visibility
     Circle.Radius = Forbidden.CamLock.Normal.Radius
     Circle.Position = Vector2.new(Mouse.X, Mouse.Y + game:GetService("GuiService"):GetGuiInset().Y)
 end
