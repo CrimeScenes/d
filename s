@@ -721,7 +721,7 @@ local Games = {
     [2788229376] = {Name = "Da Hood", Argument = "UpdateMousePosI2", Remote = "MainEvent", BodyEffects = "K.O",},
     [16033173781] = {Name = "Da Hood Macro", Argument = "UpdateMousePosI2", Remote = "MainEvent", BodyEffects = "K.O",},
     [7213786345] = {Name = "Da Hood VC", Argument = "UpdateMousePosI", Remote = "MainEvent", BodyEffects = "K.O",},
-    [9825515356] = {Name = "Hood Customs", Argument = "GetMousePos", Remote = "MainEvent"},
+    [9825515356] = {Name = "Hood Customs", Argument = "GetPing", Remote = "MainEvent"},
     [5602055394] = {Name = "Hood Modded", Argument = "MousePos", Remote = "Bullets"},
     [17403265390] = {Name = "Da Downhill [PS/Xbox]", Argument = "MOUSE", Remote = "MAINEVENT"},
     [132023669786646] = {Name = "Da Bank", Argument = "MOUSE", Remote = "MAINEVENT"},
